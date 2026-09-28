@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Streamly — Unlimited movies, TV shows and more</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#" class="logo">STREAMLY</a>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">New & Popular</a>
+        <a href="#">My List</a>
+      </nav>
+      <button class="nav-menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1>Stranded</h1>
+      <p class="hero__desc">
+        When a research crew loses contact with the mainland, they must survive
+        a hostile island — and each other — long enough to be found.
+      </p>
+      <div class="hero__buttons">
+        <button class="btn btn--play">▶ Play</button>
+        <button class="btn btn--info">ⓘ More Info</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROWS -->
+  <main class="rows">
+    <section class="row" data-row>
+      <h2 class="row__title">Trending Now</h2>
+      <div class="row__track">
+        <button class="row__arrow row__arrow--left" aria-label="Scroll left">‹</button>
+        <div class="row__list"></div>
+        <button class="row__arrow row__arrow--right" aria-label="Scroll right">›</button>
+      </div>
+    </section>
+
+    <section class="row" data-row>
+      <h2 class="row__title">Because You Watched Stranded</h2>
+      <div class="row__track">
+        <button class="row__arrow row__arrow--left" aria-label="Scroll left">‹</button>
+        <div class="row__list"></div>
+        <button class="row__arrow row__arrow--right" aria-label="Scroll right">›</button>
+      </div>
+    </section>
+
+    <section class="row" data-row>
+      <h2 class="row__title">Critically Acclaimed</h2>
+      <div class="row__track">
+        <button class="row__arrow row__arrow--left" aria-label="Scroll left">‹</button>
+        <div class="row__list"></div>
+        <button class="row__arrow row__arrow--right" aria-label="Scroll right">›</button>
+      </div>
+    </section>
+
+    <section class="row" data-row>
+      <h2 class="row__title">New Releases</h2>
+      <div class="row__track">
+        <button class="row__arrow row__arrow--left" aria-label="Scroll left">‹</button>
+        <div class="row__list"></div>
+        <button class="row__arrow row__arrow--right" aria-label="Scroll right">›</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>This is a fan-made clone built for learning purposes. Not affiliated with Netflix.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
